@@ -3,7 +3,7 @@
    <head>
       <meta charset=utf-8>
       <link rel="shortcut icon" type="image/png" href="img/Favicon.png">
-      <title>CoinPanda || Login</title>
+      <title>CoinPanda || Home</title>
       <meta name=description content="">
       <meta name=viewport content="width=device-width,initial-scale=1">
       <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
@@ -11,7 +11,7 @@
       <link rel="stylesheet" href="css/style.css" />
       <link rel="stylesheet" href="css/login.css" />
    </head>
-   <body id="wrap">
+   <body>
       <div class="siteNavbar navbar navbar-inverse navbar-static-top" role="navigation">
          <div class="container">
             <div class="navbar-header">
@@ -60,81 +60,65 @@
             <!--/.nav-collapse -->
          </div>
       </div>
-      <div id="main" class="container">
-         <div class="form">
-            <ul class="tab-group">
-               <li class="tab active"><a href="#signup">Sign Up</a></li>
-               <li class="tab"><a href="#login">Log In</a></li>
-            </ul>
-            <div class="tab-content">
-               <div id="signup">
-                  <h1>Sign Up for Free</h1>
-                  <div style="height:40px;"></div>
-                  <form action="/" method="post">
-                     <div class="top-row">
-                        <div class="field-wrap">
-                           <label>
-                           First Name<span class="req">*</span>
-                           </label>
-                           <input type="text" required autocomplete="off" />
-                        </div>
-                        <div class="field-wrap">
-                           <label>
-                           Last Name<span class="req">*</span>
-                           </label>
-                           <input type="text"required autocomplete="off"/>
-                        </div>
-                     </div>
-                     <div class="field-wrap">
-                        <label>
-                        Email Address<span class="req">*</span>
-                        </label>
-                        <input type="email"required autocomplete="off"/>
-                     </div>
-                     <div class="field-wrap">
-                        <label>
-                        Set A Password<span class="req">*</span>
-                        </label>
-                        <input type="password"required autocomplete="off"/>
-                     </div>
-                     <div style="height:40px;"></div>
-                     <button type="submit" class="button button-block"/>Get Started</button>
-                  </form>
-               </div>
-               <div id="login">
-                  <h1>Welcome Back!</h1>
-                  <div style="height:40px;"></div>
-                  <form action="/" method="post">
-                     <div class="field-wrap">
-                        <label>
-                        Email Address<span class="req">*</span>
-                        </label>
-                        <input type="email"required autocomplete="off"/>
-                     </div>
-                     <div class="field-wrap">
-                        <label>
-                        Password<span class="req">*</span>
-                        </label>
-                        <input type="password"required autocomplete="off"/>
-                     </div>
-                     <p class="forgot"><a href="#">Forgot Password?</a></p>
-                     <div style="height:40px;"></div>
-                     <button class="button button-block"/>Log In</button>
-                  </form>
-               </div>
-            </div>
-            <!-- tab-content -->
+      <div class="container">
+         <div id="consolidated-table">
+            <table class="table table-hover">
+               <thead>
+                  <tr>
+                     <th>#</th>
+                     <th>Market Currencies</th>
+                     <th>Share %</th>
+                     <th>Volume(B)</th>
+                     <th>Last Price</th>
+                     <th>Premium</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <th scope="row">1</th>
+                     <td>Bitcoin</td>
+                     <td>23%</td>
+                     <td>333</td>
+                     <td>1234</td>
+                     <td>1234</td>
+                  </tr>
+                   <tr>
+                     <th scope="row">2</th>
+                     <td>Bitcoin</td>
+                     <td>23%</td>
+                     <td>333</td>
+                     <td>1234</td>
+                     <td>1234</td>
+                  </tr>
+                   <tr>
+                     <th scope="row">3</th>
+                     <td>Bitcoin</td>
+                     <td>23%</td>
+                     <td>333</td>
+                     <td>1234</td>
+                     <td>1234</td>
+                  </tr>
+                   <tr>
+                     <th scope="row">4</th>
+                     <td>Bitcoin</td>
+                     <td>23%</td>
+                     <td>333</td>
+                     <td>1234</td>
+                     <td>1234</td>
+                  </tr>
+               </tbody>
+            </table>
          </div>
-         <!-- /form -->
       </div>
-      <!--- Footer -->
-      <footer class="site-footer footer"><p>&copy; Developed by Team #23 </p></footer>
-      <!--- End footer -->
+      <div class="site-footer navbar navbar-inner  navbar-fixed-bottom">
+         <div class="container">
+            &copy; Developed by Team #23 
+         </div>
+      </div>
        <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/login.js"></script>
    </body>
 </html>
