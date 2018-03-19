@@ -47,6 +47,7 @@ body {
 #investment-stats .header{
 	color: #969fa6;
 	font-size: 1.5em;
+	margin-top: 0px;
 }
 #currency-stats .currency_box{
 	border: 1px solid #e4e4e4;
@@ -79,4 +80,7 @@ body {
 #piechart div{
 	margin:auto;
 	float:none;
+}
+.modal-body {
+    //max-width: 300px;
 }

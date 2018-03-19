@@ -157,6 +157,7 @@ textarea {
 .button-block {
   display: block;
   width: 100%;
+  border-radius: 5px;
 }
 
 .forgot {

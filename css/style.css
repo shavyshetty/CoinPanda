@@ -13,7 +13,7 @@
     color:#ffa000 !important;
     display:block;
     text-decoration:none;
-    text-transform:uppercase
+    font-size: 1.2em;
 }
 .siteNavbar .navbar-nav{
     padding: 1.5em 0;
@@ -25,6 +25,14 @@
 .col-centered{
     float: none !important;
     margin: 0 auto;
+}
+.btn-panda{
+    background: #ffa000;
+    color: #fff;
+}
+.btn-panda:hover, .btn-panda:focus {
+  background: #e69000;
+  color: #fff;
 }
 .navbar-toggle{
     padding: 2em 0;
