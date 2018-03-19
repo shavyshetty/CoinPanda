@@ -256,6 +256,67 @@ img.single-testimonial-profile{
 	margin: 0;
 }
 
+/*styling for compare page*/
+.currency-dropdown-menucurrency-dropdown-menu {
+	background: #fff;
+
+}
+.btn-dropdown {
+  color: #fff;
+  background-color: #e69000;
+
+}
+
+.currency-analysis-desc{
+	margin-top: 20px;
+	color:#000;
+	padding-left: 68px;
+	font-size:22px
+
+}
+
+.subscribe-button{
+  color: #fff;
+  background-color: #e69000;
+  border-color: #e69000;
+}
+
+.btn-primary{
+  color: #fff;
+  background-color: #e69000;
+  border-color: #e69000;
+}
+
+.compare-dd{
+	color: #e69000;
+}
+
+
+.top-padding-30{
+	padding-top: 30px;
+}
+
+.bottom-padding-30{
+	padding-bottom: 30px;
+}
+
+.compare-graph{
+	height:350px;
+}
+
+.btn-dropdown:hover, .btn-dropdown.active, .open>.dropdown-toggle.btn-dropdown{
+  color: #fff;
+  background-color: #2a3943;
+  border-color: #2a3943;	
+}
+
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #2a3943;
+  border-color: #2a3943;
+}
+
 /*styling for media queries to make website responsive across device sizes*/
 @media only screen and (max-width:1120px){
 	.banner-image img{
