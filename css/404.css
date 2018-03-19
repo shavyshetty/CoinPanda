@@ -170,11 +170,3 @@ body{
 	font-size: 30px;
 	margin-bottom: 20px;
 }
-.site-footer {
-    font-size: .875em;
-    padding: 2em;
-    background: #000;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
