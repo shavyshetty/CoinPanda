@@ -9,7 +9,7 @@
       <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
       <link rel="stylesheet" href="css/bootstrap.css" />
       <link rel="stylesheet" href="css/style.css" />
-      <link rel="stylesheet" href="css/login.css" />
+      <link rel="stylesheet" href="css/currency.css" />
    </head>
    <body>
       <div class="siteNavbar navbar navbar-inverse navbar-static-top" role="navigation">
@@ -61,64 +61,87 @@
          </div>
       </div>
       <div class="container">
-         <div id="consolidated-table">
-            <table class="table table-hover">
-               <thead>
-                  <tr>
-                     <th>#</th>
-                     <th>Market Currencies</th>
-                     <th>Share %</th>
-                     <th>Volume(B)</th>
-                     <th>Last Price</th>
-                     <th>Premium</th>
-                  </tr>
-               </thead>
-               <tbody>
-                  <tr>
-                     <th scope="row">1</th>
-                     <td>Bitcoin</td>
-                     <td>23%</td>
-                     <td>333</td>
-                     <td>1234</td>
-                     <td>1234</td>
-                  </tr>
-                   <tr>
-                     <th scope="row">2</th>
-                     <td>Bitcoin</td>
-                     <td>23%</td>
-                     <td>333</td>
-                     <td>1234</td>
-                     <td>1234</td>
-                  </tr>
-                   <tr>
-                     <th scope="row">3</th>
-                     <td>Bitcoin</td>
-                     <td>23%</td>
-                     <td>333</td>
-                     <td>1234</td>
-                     <td>1234</td>
-                  </tr>
-                   <tr>
-                     <th scope="row">4</th>
-                     <td>Bitcoin</td>
-                     <td>23%</td>
-                     <td>333</td>
-                     <td>1234</td>
-                     <td>1234</td>
-                  </tr>
-               </tbody>
-            </table>
+         <h2 style="text-align:center">BitCoin Price Trend</h2>
+					<p style="text-align:center">Please see the trend below</p>
+
+					<div class="columns">
+					<ul class="price">
+					<li class="header">Top 5 exchanges</li>
+					<li><a href="https://www.coinbase.com/join">CoinBase</a></li>
+					<li><a href="https://www.coinmama.com/">CoinMama</a></li>
+					<li><a href="https://www.buybitcoinworldwide.com/exchanges/localbitcoins/">Local bit coins</a></li>
+					<li><a href="https://www.bitquick.co/?a=98201">BitQuick</a></li>
+					<li><a href="https://www.kraken.com/">Kraken</a></li>
+					</ul>
+					</div>
+
+					<div class="columns">
+					<ul class="price">
+					<li class="header" >Last week trend</li>
+					<p><img src="bgap.png"  style="float:middle"  width="76%"></p>
+					
+					</ul>
+					</div>
+					
+					
+					
+
+				<div style="height:20px" class="clearfix"></div>
+         <div class="clearfix" id="portfolio-container">
+            
+            <div class="clearfix" id="investment-stats">
+               <div class="box_parent col-md-3 col-lg-3 col-sm-6 col-xs-6">
+                  <div class="box">
+                     <h3 class="header">Lowest last 24 hours</h3>
+                     <span class="num">$498.6</span>
+                  </div>
+               </div>
+               <div class="box_parent col-md-3 col-lg-3 col-sm-6 col-xs-6">
+                  <div class="box">
+                     <h3 class="header">Last 24 hours volume</h3>
+                     <span class="num">$498.6</span>
+                  </div>
+               </div>
+               <div class="box_parent col-md-3 col-lg-3 col-sm-6 col-xs-6">
+                  <div class="box">
+                     <h3 class="header">Best open price available</h3>
+                     <span class="num">$498.6</span>
+                  </div>
+               </div>
+               <div class="box_parent col-md-3 col-lg-3 col-sm-6 col-xs-6">
+                  <div class="box">
+                     <h3 class="header">Highest last 24 hours</h3>
+                     <span class="num">$498.6</span>
+                  </div>
+               </div>
+            </div>
+			
+			<div class="box_parent col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                  
+				  <div class="box">
+                     <button type="button" class="btn btn-info">Buy now!</button>
+                  </div>
+				  <div style="height:20px" class="clearfix"></div>
+               </div>
+            <div style="height:20px" class="clearfix"></div>
+            
          </div>
-      </div>
-      <div class="site-footer navbar navbar-inner  navbar-fixed-bottom">
-         <div class="container">
-            &copy; Developed by Team #23 
+
+					
+            </div>
+            <!-- tab-content -->
          </div>
+         <!-- /form -->
       </div>
+      
+<!--- Footer -->
+      <footer class="site-footer footer"><p>&copy; Developed by Team #23 </p></footer>
+      <!--- End footer -->
        <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/login.js"></script>
    </body>
 </html>
